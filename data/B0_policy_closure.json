@@ -1,0 +1,20 @@
+{
+  "current_policy_closure": "B0_boundary_signature_policy",
+  "P_layer_resonance": "ANY_EDGE = ANY_OFFSET",
+  "B0_result": "boundary signatures explain the tested placement resonance",
+  "facts": {
+    "G2_status": "pending; not used",
+    "main_target_le_5_max_ANY_OFFSET_minus_ANY_EDGE": 0.0,
+    "limit_target_6_max_ANY_OFFSET_minus_ANY_EDGE": 0.0,
+    "main_target_le_5_mean_signature_purity_ANY_EDGE": 1.0,
+    "limit_target_6_mean_signature_purity_ANY_EDGE": 1.0,
+    "boundary_signature_explains_all_ANY_EDGE": true,
+    "boundary_signature_explains_all_ANY_OFFSET": true,
+    "B1_escalation_threshold": "signature_purity < 0.90"
+  },
+  "B1_escalation_condition": [
+    "ANY_EDGE and ANY_OFFSET diverge on an admissible pair",
+    "boundary-signature purity drops below 0.90",
+    "seeds with identical boundary signatures split under restoration"
+  ]
+}
